@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Descontos</title>
+</head>
+<body>
+
+    <h1>Calculadora de Descontos</h1>
+    <!-- Calculadora que recebe o valor de um produto e mostra o valor
+         final já com o desconto aplicado, de acordo com faixas de preço. -->
+    <p style="color: blue;">Insira o valor do produto:</p>
+
+    <input type="number" id="valorProduto" step="0.01" required>
+    <button onclick="calcularDesconto()"><p style="color: blue;">Calcular Desconto</p></button>
+
+    <div style="background-color: lightgray; padding: 10px; margin-top: 20px;">
+        <strong><p style="color: red;">Condições de Desconto</p></strong>
+        <ul>
+            <li><p style="color: green;">Produtos de R$ 100,00 a R$ 199,99: 10% de desconto</p></li>
+            <li><p style="color: green;">Produtos a partir de R$ 200,00: 20% de desconto</p></li>
+            <li><p style="color: green;">Produtos abaixo de R$ 100,00: Sem desconto</p></li>
+        </ul>
+    </div>
+
+    <script>
+        // Conceitos praticados: manipulação do DOM, leitura de input,
+        // condicionais por faixa de valor e formatação de número (toFixed).
+        function calcularDesconto() {
+            let valorProduto = parseFloat(document.getElementById("valorProduto").value);
+
+            if (valorProduto >= 100 && valorProduto < 200) {
+                let desconto = valorProduto * 0.1; // 10% de desconto
+                let valorFinal = valorProduto - desconto;
+                alert(`O valor final com desconto é: R$ ${valorFinal.toFixed(2)}`);
+            } else if (valorProduto >= 200) {
+                let desconto = valorProduto * 0.2; // 20% de desconto
+                let valorFinal = valorProduto - desconto;
+                alert(`O valor final com desconto é: R$ ${valorFinal.toFixed(2)}`);
+            } else {
+                alert("O valor do produto deve ser igual ou superior a R$ 100 para receber o desconto.");
+            }
+
+            alert("Obrigado por usar a calculadora de descontos!");
+        }
+    </script>
+</body>
+</html>

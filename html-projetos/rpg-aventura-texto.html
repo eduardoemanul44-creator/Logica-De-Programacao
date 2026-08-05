@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG de Aventura em Texto</title>
+</head>
+<body>
+    <!--
+        RPG de Aventura em Texto
+        -------------------------
+        Jogo de decisões em texto: o jogador cria um personagem,
+        escolhe uma classe (com atributos diferentes) e toma decisões
+        que mudam o final da história com base nos atributos escolhidos.
+
+        Conceitos praticados: prompt/alert, condicionais encadeadas,
+        template strings e ramificação de fluxo baseada em escolha do usuário.
+    -->
+    <script>
+        // Entrada: nome e classe do personagem
+        let nome = prompt("Qual é o nome do seu personagem? ");
+        let classe = prompt("Qual é a classe do seu personagem? (Guerreiro, Mago ou Arqueiro) ");
+
+        // Atributos definidos de acordo com a classe escolhida
+        let vida;
+        let ataque;
+        let defesa;
+        let agilidade;
+
+        if (classe.toLowerCase() === "guerreiro") {
+            vida = 150;
+            ataque = 20;
+            defesa = 15;
+            agilidade = 10;
+        } else if (classe.toLowerCase() === "mago") {
+            vida = 100;
+            ataque = 30;
+            defesa = 10;
+            agilidade = 15;
+        } else if (classe.toLowerCase() === "arqueiro") {
+            vida = 120;
+            ataque = 25;
+            defesa = 12;
+            agilidade = 20;
+        } else {
+            alert("Classe inválida! Por favor, escolha entre Guerreiro, Mago ou Arqueiro.");
+        }
+
+        // Mostra a ficha do personagem, se uma classe válida foi escolhida
+        if (vida && ataque && defesa && agilidade) {
+            alert(`Personagem: ${nome}\nClasse: ${classe}\nVida: ${vida}\nAtaque: ${ataque}\nDefesa: ${defesa}\nAgilidade: ${agilidade}`);
+        }
+
+        alert(`Após um longo tempo andando em busca de civilização, ${nome} encontra um vilarejo. Ele é recebido por um ancião que lhe oferece uma missão: recuperar um artefato mágico roubado por um grupo de bandidos. ${nome} aceita a missão e parte em sua jornada. No caminho, ele enfrenta diversos desafios, como monstros e armadilhas, mas também encontra aliados que o ajudam em sua missão. Após muitas batalhas, ${nome} finalmente recupera o artefato e retorna ao vilarejo como um herói.`);
+        alert(`Após um longo tempo relaxando na vida de herói, ${nome} sai para pegar maçãs fora de sua residência, encontrando um grupo de bandidos pronto para ceifar sua vida.`);
+
+        // Decisão do jogador: o resultado muda de acordo com os atributos da classe
+        let acao = prompt("O que você deseja fazer? (Lutar, Fugir ou Negociar) ");
+
+        if (acao.toLowerCase() === "lutar") {
+            alert(`${nome} decide enfrentar os bandidos em uma batalha épica!`);
+            if (ataque > 25) {
+                alert(`${nome} derrota os bandidos com facilidade!`);
+                alert(`${nome} continua sua jornada, enfrentando novos desafios e se tornando cada vez mais forte. Ele se torna uma lenda entre os habitantes do vilarejo, conhecido por sua coragem e habilidades extraordinárias.`);
+            } else {
+                alert(`${nome} luta bravamente, mas os bandidos são fortes e ele acaba sendo derrotado.`);
+            }
+        } else if (acao.toLowerCase() === "fugir") {
+            alert(`${nome} opta por fugir, usando sua agilidade para escapar dos bandidos!`);
+            if (agilidade > 15) {
+                alert(`${nome} consegue escapar dos bandidos com sucesso!`);
+                alert(`${nome} continua sua jornada, enfrentando novos desafios e se tornando cada vez mais forte. Ele se torna uma lenda entre os habitantes do vilarejo.`);
+            } else {
+                alert(`${nome} tenta fugir, mas os bandidos o alcançam e ele acaba sendo capturado.`);
+            }
+        } else if (acao.toLowerCase() === "negociar") {
+            alert(`${nome} tenta negociar com os bandidos, buscando uma solução pacífica!`);
+            if (defesa > 12) {
+                alert(`${nome} consegue convencer os bandidos a deixá-lo em paz!`);
+                alert(`${nome} continua sua jornada, enfrentando novos desafios e se tornando cada vez mais forte.`);
+            } else {
+                alert(`${nome} tenta negociar, mas os bandidos rejeitam o acordo, e o matam.`);
+            }
+        } else {
+            alert("Ação inválida! Por favor, escolha entre Lutar, Fugir ou Negociar.");
+        }
+
+        alert(`Fim da história de ${nome}, o ${classe}! Obrigado por jogar!`);
+    </script>
+</body>
+</html>
