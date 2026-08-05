@@ -1,32 +1,32 @@
-# Portfólio de Exercícios — Lógica de Programação
+# Portfólio — Eduardo
 
-Coleção de projetos e exercícios desenvolvidos durante meu curso técnico,
-cobrindo lógica de programação em Python, JavaScript e HTML/JS.
+Exercícios e projetos do meu curso técnico em programação, com foco em backend.
 
-## 🐍 Python
-- **`maquina_de_vendas.py`** — Simulação de máquina de vendas automática em CLI,
-  com catálogo de produtos, controle de estoque, desconto progressivo e
-  duas formas de pagamento (dinheiro/cartão).
-- **`exercicios_logica.py`** — Coleção de 10 exercícios de fundamentos:
-  condicionais, loops e o algoritmo de verificação de número primo.
+## Sobre
 
-## 🌐 HTML + JavaScript
-- **`rpg-aventura-texto.html`** — Jogo de aventura em texto com escolha de
-  classe de personagem e final dinâmico baseado nos atributos e nas
-  decisões do jogador.
-- **`calculadora-de-descontos.html`** — Calculadora com interface (input +
-  botão) que aplica desconto por faixa de valor do produto.
+Estudante de curso técnico em programação (cerca de 6 meses de lógica de programação). 
+Pratiquei Python, JavaScript e HTML/CSS, e agora estou aprofundando em Java e 
+orientação a objetos, com foco em virar dev backend.
 
-## ⚙️ JavaScript
-- **`cardapio-carrinho.js`** — Sistema de pedidos com cardápio e cálculo de
-  total do carrinho, usando `switch/case`.
-- **`sistema-de-notas.js`** — Classificação de alunos por conceito (A–E)
-  de acordo com a nota informada.
+## Conteúdo
 
-## Sobre este repositório
-Cada arquivo tem comentários explicando os conceitos praticados. Este
-portfólio foi organizado a partir das atividades do curso técnico,
-selecionando os exercícios mais completos e corrigindo pequenos bugs
-de lógica encontrados nas versões originais.
+**python/**
+- exercicios-logica.py — fixação de lógica de programação
+- maquina-de-vendas.py — simulação de máquina de vendas
 
-Próximo passo: aprender Java e Spring Boot para desenvolvimento backend.
+**javascript/**
+- sistema-de-notas.js — cálculo e gerenciamento de notas
+- cardapio-carrinho.js — carrinho de compras interativo
+
+**html-projetos/**
+- calculadora-de-descontos.html — calculadora interativa
+- rpg-aventura-texto.html — jogo de RPG em texto
+
+## Tecnologias em estudo
+
+`Python` `JavaScript` `HTML/CSS` `Java (em progresso)` `Lógica de Programação` `POO`
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/in/eduardo-machado-495128346/?skipRedirect=true
+- Email: eduardoemanul44@gmail.com
