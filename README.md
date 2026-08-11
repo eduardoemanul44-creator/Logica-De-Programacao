@@ -1,30 +1,11 @@
-<div id="top"> <!-- HEADER STYLE: CLASSIC --> <div align="center"> <img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<div align="center"> <img src="readmeai/assets/logos/purple.svg" width="15%" alt="Project Logo"/>
 LOGICA-DE-PROGRAMACAO
+<img src="https://img.shields.io/github/license/eduardoemanul44-creator/Logica-De-Programacao?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license"> <img src="https://img.shields.io/github/last-commit/eduardoemanul44-creator/Logica-De-Programacao?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit"> <img src="https://img.shields.io/github/languages/top/eduardoemanul44-creator/Logica-De-Programacao?style=default&color=0080ff" alt="repo-top-language"> <img src="https://img.shields.io/github/languages/count/eduardoemanul44-creator/Logica-De-Programacao?style=default&color=0080ff" alt="repo-language-count"> </div> <br>
+Sobre
 
-<em></em>
+Repositório com exercícios e projetos de lógica de programação desenvolvidos durante o curso técnico de Desenvolvimento de Sistemas (SENAI/SC), com foco em Python, JavaScript e HTML. Inclui simulações de sistemas reais — máquina de vendas, calculadora de descontos, RPG em texto — praticando condicionais, loops, estruturas de dados e manipulação do DOM.
 
-<!-- BADGES --> <img src="https://img.shields.io/github/license/eduardoemanul44-creator/Logica-De-Programacao?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license"> <img src="https://img.shields.io/github/last-commit/eduardoemanul44-creator/Logica-De-Programacao?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit"> <img src="https://img.shields.io/github/languages/top/eduardoemanul44-creator/Logica-De-Programacao?style=default&color=0080ff" alt="repo-top-language"> <img src="https://img.shields.io/github/languages/count/eduardoemanul44-creator/Logica-De-Programacao?style=default&color=0080ff" alt="repo-language-count"> <!-- default option, no dependency badges. --> <!-- default option, no dependency badges. --> </div> <br>
-Table of Contents
-Table of Contents
-Overview
-Features
-Project Structure
-Project Index
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Roadmap
-Contributing
-License
-Acknowledgments
-Overview
-Features
-
-<code>❯ REPLACE-ME</code>
-
-Project Structure
+Estrutura do Projeto
 sh
 └── Logica-De-Programacao/
     ├── README.md
@@ -37,9 +18,36 @@ sh
     └── python
         ├── exercicios-logica.py
         └── maquina-de-vendas.py
-Project Index
-<details open> <summary><b><code>LOGICA-DE-PROGRAMACAO/</code></b></summary> <!-- __root__ Submodule --> <details> <summary><b>__root__</b></summary> <blockquote> <div class='directory-path' style='padding: 8px 0; color: #666;'> <code><b>⦿ __root__</b></code> <table style='width: 100%; border-collapse: collapse;'> <thead> <tr style='background-color: #f8f9fa;'> <th style='width: 30%; text-align: left; padding: 8px;'>File Name</th> <th style='text-align: left; padding: 8px;'>Summary</th> </tr> </thead> </table> </blockquote> </details> <!-- python Submodule --> <details> <summary><b>python</b></summary> <blockquote> <div class='directory-path' style='padding: 8px 0; color: #666;'> <code><b>⦿ python</b></code> <table style='width: 100%; border-collapse: collapse;'> <thead> <tr style='background-color: #f8f9fa;'> <th style='width: 30%; text-align: left; padding: 8px;'>File Name</th> <th style='text-align: left; padding: 8px;'>Summary</th> </tr> </thead> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/python/exercicios-logica.py'>exercicios-logica.py</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/python/maquina-de-vendas.py'>maquina-de-vendas.py</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> </table> </blockquote> </details> <!-- html-projetos Submodule --> <details> <summary><b>html-projetos</b></summary> <blockquote> <div class='directory-path' style='padding: 8px 0; color: #666;'> <code><b>⦿ html-projetos</b></code> <table style='width: 100%; border-collapse: collapse;'> <thead> <tr style='background-color: #f8f9fa;'> <th style='width: 30%; text-align: left; padding: 8px;'>File Name</th> <th style='text-align: left; padding: 8px;'>Summary</th> </tr> </thead> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/html-projetos/calculadora-de-descontos.html'>calculadora-de-descontos.html</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/html-projetos/rpg-aventura-texto.html'>rpg-aventura-texto.html</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> </table> </blockquote> </details> <!-- javascript Submodule --> <details> <summary><b>javascript</b></summary> <blockquote> <div class='directory-path' style='padding: 8px 0; color: #666;'> <code><b>⦿ javascript</b></code> <table style='width: 100%; border-collapse: collapse;'> <thead> <tr style='background-color: #f8f9fa;'> <th style='width: 30%; text-align: left; padding: 8px;'>File Name</th> <th style='text-align: left; padding: 8px;'>Summary</th> </tr> </thead> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/javascript/cardapio-carrinho.js'>cardapio-carrinho.js</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> <tr style='border-bottom: 1px solid #eee;'> <td style='padding: 8px;'><b><a href='https://github.com/eduardoemanul44-creator/Logica-De-Programacao/blob/master/javascript/sistema-de-notas.js'>sistema-de-notas.js</a></b></td> <td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td> </tr> </table> </blockquote> </details> </details>
-## Contato
+Índice de Projetos
+python/
+Arquivo	Descrição
+exercicios-logica.py	Coleção de 10 exercícios curtos de lógica: par/ímpar, média de notas, comparação de números, sinal (positivo/negativo/zero), contagem, tabuada, soma em loop, calculadora simples, verificação de senha e checagem de número primo.
+maquina-de-vendas.py	Simulação em CLI de uma máquina de vendas automática: exibe catálogo de produtos, processa a compra, aplica desconto por faixa de valor, calcula troco em dinheiro ou valida senha do cartão. Usa dicionários aninhados, loops e condicionais encadeadas.
+html-projetos/
+Arquivo	Descrição
+calculadora-de-descontos.html	Calculadora que recebe o valor de um produto e aplica desconto por faixa de preço (10% de R$100 a R$199,99, 20% a partir de R$200). Pratica manipulação do DOM e leitura de input.
+rpg-aventura-texto.html	Jogo de decisões em texto: o jogador cria um personagem, escolhe uma classe (Guerreiro, Mago ou Arqueiro) com atributos diferentes, e toma decisões que mudam o final da história. Pratica condicionais encadeadas e ramificação de fluxo.
+javascript/
+Arquivo	Descrição
+cardapio-carrinho.js	Cardápio de lanches em CLI: o usuário escolhe itens em loop e o programa soma o valor total do carrinho. Pratica objetos com arrays paralelos e switch/case.
+sistema-de-notas.js	Recebe nome e nota de vários alunos e classifica cada um por conceito (A a E) conforme a faixa de nota. Pratica loops com contador e condicionais encadeadas.
+Como Executar
 
-- LinkedIn: https://www.linkedin.com/in/eduardo-machado-495128346/?skipRedirect=true
-- Email: eduardoemanul44@gmail.com
+Scripts Python (requer Python 3):
+
+sh
+python exercicios-logica.py
+python maquina-de-vendas.py
+
+Scripts JavaScript (requer Node.js e o pacote prompt-sync):
+
+sh
+npm install prompt-sync
+node cardapio-carrinho.js
+node sistema-de-notas.js
+
+Projetos HTML: basta abrir o arquivo .html direto no navegador.
+
+Contato
+LinkedIn: linkedin.com/in/eduardo-machado-495128346
+Email: eduardoemanul44@gmail.com
