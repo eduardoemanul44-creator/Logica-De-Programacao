@@ -1,3 +1,4 @@
+<div align="center">
 
 # LOGICA-DE-PROGRAMACAO
 
