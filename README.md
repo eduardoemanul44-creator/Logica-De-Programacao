@@ -1,5 +1,3 @@
-<div align="center">
-<img src="readmeai/assets/logos/purple.svg" width="15%" alt="Project Logo"/>
 
 # LOGICA-DE-PROGRAMACAO
 
