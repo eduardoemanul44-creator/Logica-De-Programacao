@@ -1,6 +1,6 @@
 <div align="center">
 
-# apps-script/
+# apps-script
 
 <img src="https://img.shields.io/badge/Google_Apps_Script-000000?style=for-the-badge&logo=googleappsscript&logoColor=a855f7&labelColor=0d0d14"/>
 <img src="https://img.shields.io/badge/Google_Sheets-000000?style=for-the-badge&logo=googlesheets&logoColor=a855f7&labelColor=0d0d14"/>
