@@ -1,30 +1,21 @@
 function enviarEmails() {
-   // Pega a planilha ativa e uma aba específica pelo nome
-  // SpreadsheetApp é a classe do Google Sheets no Apps Script
 
-  
   let aba = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Página1");
 
-      // getDataRange() pega TODAS as células com dados
-     // getValues() converte para uma matriz (array de arrays)
-    // Exemplo: [["Nome", "Email", "Nota"], ["João", "joao@email.com", 8], ...]
 
   let dados = aba.getDataRange().getValues();
 
-     // O loop começa em i = 1 porque a linha 0 (índice 0) é o CABEÇALHO
-    // dados.length = número total de linhas com dados
 
   for (let i = 1; i < dados.length; i++) {
     let nome  = dados[i][0];
     let email = dados[i][1];
     let nota  = dados[i][2];
 
-       // Chama a função verificarStatus() passando a nota como argumento
-       // O resultado (Aprovado/Recuperação/Reprovado) é armazenado em 'status'
+
 
     let status = verificarStatus(nota);
 
-         // Constrói a mensagem personalizada usando concatenação (+)
+
 
     let mensagem = 'Olá, ' + nome + '! Nota: ' + nota + '. Situação: ' + status;
 
